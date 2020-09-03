@@ -1,0 +1,62 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import '~material-design-icons/iconfont/material-icons.css';
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import 'notify';
+@import 'efectos.scss';
+@import 'scroll.scss';
+
+
+
+
+body{
+    background-color: $body-bg;
+
+}
+
+.fondo-azul{
+    background-color: $matrix-azul;
+}
+.texto-claro{
+    text-decoration: none;
+    color:$matrix-celeste-claro;
+    &:hover {
+        color:#ffffff;
+    }
+    
+}
+
+.texto-claro-titulo{
+    @extend .texto-claro;
+    font-size: 3em;
+}
+.links-claro{
+    color:$matrix-celeste-claro;
+    &:hover {
+        color:#ffffff;
+    }
+}
+
+thead th:hover{
+    cursor: pointer;
+    background-color: $fondo_tabla_Seleccionada;
+}
+
+.tabla-link, .table-tr{
+    cursor: pointer;
+}
+
+.lista tr:hover, tr.seleccionado {
+    background-color: $fondo_tabla_Seleccionada;
+}
+.lista td {padding: 5px;}
+
+.table td {
+    text-align: center;   
+ }
+// thead th { position: sticky; top: 0; }
