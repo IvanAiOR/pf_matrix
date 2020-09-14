@@ -8,6 +8,8 @@ Copiar el archivo .env.example a .env
 <pre>cp .env.example .env</pre>
 Generar una nueva key:
 <pre>php artisan key:generate</pre>
+Migrar la base de datos:
+<pre>php artisan migrate</pre> 
 Actualizar los archivos de JS usar:
 <pre>npm run dev</pre> 
 Finalmente levantamos el servidor local con: 
