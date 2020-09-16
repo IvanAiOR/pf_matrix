@@ -1,4 +1,4 @@
-Una vez descargado el repositorio entrar a la carpeta y ejecutar los siguientes comandos:
+Una vez descargado el repositorio, entrar a la carpeta del proyecto y ejecutar los siguientes comandos:
 <hr/>
 Instalar dependencias de composer:
 <pre>composer install</pre> 
